@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+import Footer from "./Components/Footer/Footer";
+import Note from "./Components/Note/Note";
+import notesArr from './NotesFile';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header />
+
+        <div className="mainDiv">
+          
+          { 
+            notesArr.map((noteItem)=>{
+              return <Note title={noteItem.title} des={noteItem.description}/>
+            })
+          }
+          
+        </div>
+        <Footer/>
     </div>
   );
 }
 
 export default App;
+

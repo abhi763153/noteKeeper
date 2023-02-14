@@ -1,0 +1,13 @@
+.Header{
+    height: 80px;
+    width: 100%;
+    background-color: #f5ba13;
+    padding: 11px 40px;
+    box-shadow: 0, 0, 10px, 0, rgba(0, 0, 0, 0.3); 
+}
+
+.headingName{
+    font-size: 2.5rem;
+    color: white;
+    font-family: 'McLaren', cursive;
+}
