@@ -1,0 +1,43 @@
+.noteEditor{
+    margin: 20px 60px;
+    padding: 30px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+    width: 600px;
+    border-radius: 6px;
+    position: relative;
+}
+
+.noteEditor > input{
+    display: block;
+    margin: 10px 0;
+    width: 540px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgba(159, 159, 159, 0.1);
+    border-radius: 6px;
+    padding: 10px;
+}
+.noteEditor > textarea{
+    display: block;
+    margin: 10px 0;
+    outline: none;
+    border: none;
+    background-color: rgba(159, 159, 159, 0.1);
+    border-radius: 6px;
+    padding: 10px;
+    width: 540px;
+}
+
+.btn{
+    width: 40px;
+    position: absolute;
+    left: 33rem;
+    top: 14.7rem;
+    height: 40.5px;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #f7c644;
+    color: white;
+    font-size: 0.8rem;
+}

@@ -1,6 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .mainDiv{
   display:flex;
   justify-content:left;
   flex-wrap:wrap;
-  padding:0 30px;  
+  padding:0 30px;
+}
+
+.App{
+  position: relative;
+  min-height: 100vh;
 }
